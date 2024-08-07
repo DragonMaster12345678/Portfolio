@@ -13,19 +13,20 @@ const Experience = () => {
 					</li>
 				))}
 			</ul>
-
-			{data.events.map((event) => (
-				<div key={event.name}>
-					<h1 className="text-2xl">{event.name}</h1>
-					<ul className="list-disc pl-6">
-						{event.points.map((point) => (
-							<li key={point} className="text-xl">
-								{point}
-							</li>
-						))}
-					</ul>
-				</div>
-			))}
+			<div className="flex flex-col gap-10">
+				{data.events.map((event) => (
+					<div key={event.name}>
+						<h1 className="text-2xl">{event.name}</h1>
+						<ul className="list-disc pl-6">
+							{event.points.map((point) => (
+								<li key={point} className="text-xl">
+									{point}
+								</li>
+							))}
+						</ul>
+					</div>
+				))}
+			</div>
 		</div>
 	);
 };

@@ -14,13 +14,13 @@ const typedData: {
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center w-full px-64 py-12">
-			<div className="flex flex-row justify-between w-full">
-				<div className="flex flex-col">
+		<main className="flex min-h-screen flex-col items-center w-full px-4 md:px-64 py-12">
+			<div className="flex flex-col md:flex-row justify-between w-full">
+				<div className="flex flex-col text-left">
 					<h1 className="text-5xl text-yellow-500">{data.meta.main.name}</h1>
 					<p className="text-3xl">{data.meta.main.title}</p>
 				</div>
-				<div className="flex flex-col text-right">
+				<div className="flex flex-col text-left md:text-right mt-4 md:mt-0">
 					{Object.keys(typedData.meta.other).map((item) => (
 						<h1 key={item}>
 							{item.charAt(0).toUpperCase() + item.slice(1)}:{" "}
@@ -29,7 +29,7 @@ export default function Home() {
 					))}
 				</div>
 			</div>
-			<div className="flex flex-col">
+			<div className="flex flex-col w-full">
 				{Object.keys(typedData.other).map((item) => (
 					<Section title={item} data={typedData.other[item]} key={item} />
 				))}
