@@ -1,34 +1,34 @@
 {
-	"topics": ["Algorithm Development", "Model Development", "Data Mining"],
-	"events": [
-		{
-			"name": "Camp Counselor in Training, Boy Scouts of America, July 2024-July 2024 Snohomish, WA",
-			"points": [
-				"Encouraged children to participate in team building activities and facilitated group discussions.",
-				"Instructed campers on proper safety protocols while participating in recreational activities. Collaborated with other counselors-in-training to plan engaging events for the campers' enjoyment.",
-				"Organized recreational equipment for various activities and monitored its use.",
-				"Helped ensure that all campers were safe at all times during their stay at the camp. ",
-				"Explained principles, techniques and safety procedures and demonstrated use of materials and equipment.",
-				"Assisted with transporting and escorting program participants to, from and within program activity locations and on external trips.",
-				"Helped participants enjoy activities while ensuring adherence to protocol."
-			]
-		},
-		{
-			"name": "Camp Counselor, Boy Scouts of America, January 2024-March 2024 Enumclaw, WA",
-			"points": [
-				"Encouraged camper participation in recreational activities through enthusiastic leadership style.",
-				"Organized and supervised camp activities such as swimming, canoeing, arts and crafts, hikes, and sports.",
-				"Provided guidance and support to ensure the safety of all campers in a variety of outdoor settings.",
-				"Monitored camper behaviors during meals ensuring proper hygiene habits were followed.",
-				"Collaborated with fellow counselors in planning fun evening events such as movie nights or talent shows.",
-				"Enforced discipline and policies to protect safety of recreational activity participants.",
-				"Coordinated and led group activities for campers and counselors.",
-				"Welcomed participants and directed to assigned areas.",
-				"Engaged children in arts and crafts, singing, sports activities, games and field trips while maintaining a safe environment.",
-				"Facilitated daily activities, ensuring a safe, inclusive, and fun environment for campers of diverse backgrounds.",
-				"Conferred with management to discuss and resolve participant complaints.",
-				"Met with staff to discuss rules, regulations and work-related problems."
-			]
-		}
-	]
+  "topics": ["Algorithm Development", "Model Development", "Data Mining"],
+  "events": [
+    {
+      "name": "Camp Counselor in Training, Boy Scouts of America, July 2024-July 2024 Snohomish, WA",
+      "points": [
+        "Encouraged children to participate in team building activities and facilitated group discussions.",
+        "Instructed campers on proper safety protocols while participating in recreational activities. Collaborated with other counselors-in-training to plan engaging events for the campers' enjoyment.",
+        "Organized recreational equipment for various activities and monitored its use.",
+        "Helped ensure that all campers were safe at all times during their stay at the camp. ",
+        "Explained principles, techniques and safety procedures and demonstrated use of materials and equipment.",
+        "Assisted with transporting and escorting program participants to, from and within program activity locations and on external trips.",
+        "Helped participants enjoy activities while ensuring adherence to protocol."
+      ]
+    },
+    {
+      "name": "Camp Counselor, Boy Scouts of America, January 2024-March 2024 Enumclaw, WA",
+      "points": [
+        "Encouraged camper participation in recreational activities through enthusiastic leadership style.",
+        "Organized and supervised camp activities such as swimming, canoeing, arts and crafts, hikes, and sports.",
+        "Provided guidance and support to ensure the safety of all campers in a variety of outdoor settings.",
+        "Monitored camper behaviors during meals ensuring proper hygiene habits were followed.",
+        "Collaborated with fellow counselors in planning fun evening events such as movie nights or talent shows.",
+        "Enforced discipline and policies to protect safety of recreational activity participants.",
+        "Coordinated and led group activities for campers and counselors.",
+        "Welcomed participants and directed to assigned areas.",
+        "Engaged children in arts and crafts, singing, sports activities, games and field trips while maintaining a safe environment.",
+        "Facilitated daily activities, ensuring a safe, inclusive, and fun environment for campers of diverse backgrounds.",
+        "Conferred with management to discuss and resolve participant complaints.",
+        "Met with staff to discuss rules, regulations and work-related problems."
+      ]
+    }
+  ]
 }
