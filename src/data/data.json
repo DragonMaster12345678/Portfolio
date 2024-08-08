@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "main": {
+      "name": "Ritwik Singh",
+      "title": "Data Science Intern"
+    },
+    "other": {
+      "phone": "425-469-1021",
+      "email": "ritwikrule@gmail.com",
+      "address": "Redmond, WA 98052"
+    }
+  },
+  "other": {
+    "summary": "Analytically driven Data Science Intern, known for high productivity and efficient task completion. Possess deep knowledge in machine learning, statistical analysis, and data visualization. Excel in problem-solving, critical thinking, and communication, ensuring seamless integration of data insights into actionable business strategies.",
+    "skills": [
+      "Activity Planning",
+      "Group activity implementation",
+      "Object-Oriented Programming",
+      "Documentation Writing",
+      "Deep learning",
+      "Machine learning",
+      "Data visualization",
+      "Data cleaning"
+    ],
+    "education-and-training": [
+      "Currently possesses a 4.0 GPA",
+      "Received a 5 on AP World History",
+      "Received a 5 on AP Computer Science A",
+      "High School Diploma",
+      "Interlake Senior High School, Bellevue WA Expected in June 2027"
+    ],
+    "languages": [
+      "Hindi: Professional",
+      "Spanish: Elementary",
+      "English: Professional"
+    ],
+    "accomplishments": "For outstanding service during my time serving as a Counselor-in-Training with the Boy Scouts of America, I was able to apply for and receive the gold President's Volunteer Service Award. I also took AP Computer Science A, and received a 5 on my exam, which I believe indicates a certain level of proficiency with the Java Programming Language.",
+    "certifications": "For completing the Inspirit AI Scholars Course, I received a certificate which \"confirms fulfillment of the requirements to become an Artificial Intelligence Scholar\", and for completing the Inspirit AI Ambassadors Program, I received certification that stated confirmation for the requirements to become an AI Ambassador, awarded to the best-performing high school student leaders globally.",
+    "activities-and-honors": [
+      "Karate",
+      "Biking",
+      "Reading",
+      "Programming",
+      "Mathematics"
+    ],
+    "ongoing-internship": "I am also currently working as an intern with Dreamwave AI, in order to help them improve their efficiency in regards to image recognition and detection algorithms.",
+    "references": "References available upon request."
+  }
+}
