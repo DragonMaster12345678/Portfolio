@@ -33,6 +33,10 @@ export default function Home() {
         <meta property="og:description" content={data.other.summary} />
         <meta name="theme-color" content="#000000" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="google-site-verification"
+          content="bHZbKvqyNEiwnfdWPaJYLa2PmNrdDvAGGU8rf_pGyEA"
+        />
 
         <title>Ritwik Singh</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
