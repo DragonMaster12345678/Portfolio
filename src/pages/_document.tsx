@@ -5,6 +5,14 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5ZCD8X9L"
+            height="0"
+            width="0"
+            className="invisible hidden"
+          ></iframe>
+        </noscript>
         <Main />
         <NextScript />
       </body>
