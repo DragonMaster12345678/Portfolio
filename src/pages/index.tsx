@@ -20,25 +20,34 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content={data.other.summary} />
-        <meta name="keywords" content={data.meta.main.name} />
+        <meta
+          name="description"
+          content={`View the résumé of aspiring programmer ${data.meta.main.name}`}
+        />
+        <meta
+          name="keywords"
+          content={`${data.meta.main.name}, resume, résumé, portfolio, data science, intern, cv,curriculum vitae`}
+        />
         <meta name="copyright" content={data.meta.main.name} />
-        <meta property="og:title" content={data.meta.main.name} />
+        <meta property="og:title" content="Ritwik Singh's Portfolio/Résumé" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ritwiksingh.lineofwork.eu" />
         <meta
           property="og:image"
           content="https://ritwiksingh.lineofwork.eu/favicon.png"
         />
-        <meta property="og:description" content={data.other.summary} />
-        <meta name="theme-color" content="#000000" />
+        <meta
+          property="og:description"
+          content={`View the résumé of aspiring programmer ${data.meta.main.name}`}
+        />
+        <meta name="theme-color" content="#00aaff" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="google-site-verification"
           content="bHZbKvqyNEiwnfdWPaJYLa2PmNrdDvAGGU8rf_pGyEA"
         />
 
-        <title>Ritwik Singh</title>
+        <title>Ritwik Singh&apos;s Portfolio/Résumé</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen w-full flex-col items-center px-4 py-12 md:px-64">
@@ -52,10 +61,10 @@ export default function Home() {
             </div>
             <div className="mt-4 flex flex-col text-left md:mt-0 md:text-right">
               {Object.keys(typedData.meta.other).map((item) => (
-                <h1 key={item}>
+                <h2 key={item}>
                   {item.charAt(0).toUpperCase() + item.slice(1)}:{" "}
                   {typedData.meta.other[item]}
-                </h1>
+                </h2>
               ))}
             </div>
           </div>

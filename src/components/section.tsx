@@ -9,9 +9,9 @@ const Section = ({ title, data }: SectionData) => {
   return (
     <>
       <div className="mt-10">
-        <h1 className="bg-orange-100 text-4xl uppercase text-gray-600">
+        <h2 className="bg-orange-100 text-4xl uppercase text-gray-600">
           {title.replaceAll("-", " ")}
-        </h1>
+        </h2>
         {typeof data === "string" ? (
           <p className="text-xl">{data}</p>
         ) : (

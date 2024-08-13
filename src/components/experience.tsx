@@ -3,9 +3,9 @@ import data from "@/data/experience.json";
 const Experience = () => {
   return (
     <div className="mt-10">
-      <h1 className="bg-orange-100 text-4xl uppercase text-gray-600">
+      <h2 className="bg-orange-100 text-4xl uppercase text-gray-600">
         Experience
-      </h1>
+      </h2>
       <ul className="mb-10">
         {data.topics.map((topic) => (
           <li key={topic} className="text-xl">
@@ -16,7 +16,7 @@ const Experience = () => {
       <div className="flex flex-col gap-10">
         {data.events.map((event) => (
           <div key={event.name}>
-            <h1 className="text-2xl">{event.name}</h1>
+            <h2 className="text-2xl">{event.name}</h2>
             <ul className="list-disc pl-6">
               {event.points.map((point) => (
                 <li key={point} className="text-xl">
